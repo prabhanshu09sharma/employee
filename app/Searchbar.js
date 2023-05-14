@@ -4,7 +4,6 @@ import Card from '@/components/Card'
 import Link from 'next/link';
 import { useSelector } from 'react-redux';
 import { VscAccount } from "react-icons/vsc";
-import SelectedCandidate from './SelectedCandidate';
 
 
 const SearchBar = () => {

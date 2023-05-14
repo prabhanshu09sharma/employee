@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import { useDispatch } from 'react-redux'
 import { BiSkipNext, BiSkipPrevious } from 'react-icons/bi'
-import { addToCart } from '@/app/GlobalRedux/feature/cart/cartSlice';
+import { addToCart } from '@/app/GlobalRedux/features/cart/cartSlice';
 
 const Card = ({ data }) => {
 
